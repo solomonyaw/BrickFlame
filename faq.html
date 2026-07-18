@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BrickFlame Waste Solutions Limited is a Ghanaian environmental engineering company specializing in the design, construction, and maintenance of high-quality cone-shaped brick incinerators." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <title>Frequently Asked Questions | BrickFlame Waste Solutions Limited</title>
+    
+    <!-- Direct Standard CSS -->
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body class="bg-[#FAF9F6] dark:bg-[#0F0F10] text-neutral-800 dark:text-neutral-200 transition-colors duration-300 antialiased selection:bg-brick-red/20 selection:text-brick-red">
+    
+    <!-- 1. Beautiful Preloader -->
+    <div id="app-preloader" class="fixed inset-0 bg-neutral-950 flex flex-col items-center justify-center z-50 transition-opacity duration-300">
+      <div class="relative w-16 h-16 flex items-center justify-center">
+        <!-- Fire & Brick Animation -->
+        <div class="absolute inset-0 rounded-2xl border-4 border-brick-red/10 animate-pulse"></div>
+        <div class="absolute inset-2 rounded-xl border-4 border-brick-red/40 animate-spin" style="animation-duration: 3s"></div>
+        <div class="absolute w-4 h-4 bg-brick-red rounded-lg animate-ping"></div>
+      </div>
+      <div class="text-center mt-6">
+        <h2 class="text-2xl font-display font-extrabold text-white tracking-wider" style="margin: 0">BRICK<span class="text-brick-red">FLAME</span></h2>
+        <p class="text-[10px] text-neutral-500 mt-2 uppercase tracking-widest font-mono" style="margin: 0.25rem 0 0 0">Building Cleaner Communities, Brick By Brick</p>
+      </div>
+    </div>
+
+    <!-- 2. Upper Information Ribbon -->
+    <div class="bg-neutral-950 text-white text-[11px] py-2.5 border-b border-neutral-900 hidden md:block">
+      <div class="container mx-auto px-6 max-w-7xl flex justify-between items-center">
+        <div class="flex items-center gap-6">
+          <span class="flex items-center gap-2 text-neutral-400 hover:text-white transition-colors">
+            <svg class="w-3.5 h-3.5 text-brick-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg> 
+            New Sebrepor, Tema, Ghana
+          </span>
+          <span class="flex items-center gap-2 text-neutral-400 hover:text-white transition-colors">
+            <svg class="w-3.5 h-3.5 text-brick-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> 
+            brickflamewaste@gmail.com
+          </span>
+        </div>
+        <div class="flex items-center gap-6">
+          <span class="flex items-center gap-2 text-neutral-400">
+            <svg class="w-3.5 h-3.5 text-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 
+            Mon - Sat: 8:00 AM - 5:00 PM
+          </span>
+          <span class="text-brick-red font-bold font-mono text-[10px] tracking-widest border-l border-neutral-800 pl-6">BF SOLUTIONS LTD</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Sticky Main Navigation Header -->
+    <header class="sticky top-0 z-40 bg-[#FAF9F6]/95 dark:bg-[#0F0F10]/95 backdrop-blur-md border-b border-neutral-200/50 dark:border-neutral-900 transition-colors duration-300 shadow-sm">
+      <div class="container mx-auto px-6 max-w-7xl flex items-center justify-between py-4">
+        
+        <!-- Logo & Brand Identity -->
+        <a id="header-logo" href="index.html" class="flex items-center gap-3 group">
+          <img 
+            src="/src/assets/images/company_logo_1784315853658.jpg" 
+            alt="BrickFlame Logo" 
+            class="w-10 h-10 rounded-xl object-cover border border-brick-red/25 shadow-md shadow-brick-red/10 group-hover:scale-105 transition-transform duration-300"
+            referrerPolicy="no-referrer"
+          />
+          <div>
+            <h1 class="text-sm md:text-base font-display font-extrabold text-neutral-900 dark:text-white leading-none tracking-tight" style="margin:0">
+              BrickFlame <span class="text-brick-red">Waste</span>
+            </h1>
+            <span class="text-[9px] md:text-[10px] text-neutral-500 uppercase tracking-widest block mt-1 font-mono">Solutions Limited</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden xl:flex items-center gap-1">
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="home" href="index.html">Home</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="about" href="about.html">About</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="services" href="services.html">Services</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="incinerators" href="incinerators.html">Technology</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="process" href="process.html">13-Step Process</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="ash" href="ash.html">Ash Recycle</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="prototype" href="prototype.html">Prototype</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="gallery" href="gallery.html">Gallery</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="blog" href="blog.html">Blog</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="faq" href="faq.html">FAQ</a>
+          <a class="nav-link-btn px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all" data-page="contact" href="contact.html">Contact Us</a>
+        </nav>
+
+        <!-- Header Controls -->
+        <div class="flex items-center gap-3">
+          <button 
+            id="theme-toggle-btn"
+            class="p-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400 hover:text-brick-red dark:hover:text-brick-red hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-all cursor-pointer"
+            title="Toggle theme mode"
+          >
+            <!-- Rendered by app.js -->
+          </button>
+          
+          <a 
+            id="header-quote-btn"
+            href="contact.html" 
+            class="nav-link-btn hidden lg:inline-flex bg-brick-red hover:bg-orange-flame text-white text-xs font-bold px-4 py-2.5 rounded-xl transition-all shadow-md shadow-brick-red/15 cursor-pointer"
+            data-page="contact"
+          >
+            Get Estimate
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button 
+            id="mobile-menu-toggle"
+            class="p-2.5 rounded-xl xl:hidden border border-neutral-200 dark:border-neutral-800 text-neutral-700 dark:text-neutral-300 cursor-pointer"
+          >
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div id="mobile-nav-drawer" class="xl:hidden bg-[#FAF9F6] dark:bg-[#0F0F10] border-t border-neutral-200/60 dark:border-neutral-900 py-4 px-4 space-y-2 shadow-lg hidden">
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="home" href="index.html">Home</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="about" href="about.html">About</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="services" href="services.html">Services</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="incinerators" href="incinerators.html">Technology</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="process" href="process.html">13-Step Process</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="ash" href="ash.html">Ash Recycle</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="prototype" href="prototype.html">Prototype</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="gallery" href="gallery.html">Gallery</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="blog" href="blog.html">Blog</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="faq" href="faq.html">FAQ</a>
+        <a class="nav-link-btn block px-4 py-3 rounded-xl text-xs font-semibold tracking-wide transition-all" data-page="contact" href="contact.html">Contact Us</a>
+        <div class="pt-4 border-t border-neutral-200 dark:border-neutral-900 flex flex-col gap-2">
+          <a 
+            id="mobile-drawer-whatsapp"
+            href="https://wa.me/233256016767" 
+            target="_blank" 
+            rel="noreferrer"
+            class="w-full bg-[#128C7E] hover:bg-[#075E54] text-white font-semibold py-3 px-4 rounded-xl text-xs text-center flex items-center justify-center gap-1.5 transition-all"
+          >
+            <svg class="w-4 h-4 fill-white shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.501-5.733-1.454L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.638 1.986 14.161 1.01 11.533 1.01 6.098 1.01 1.674 5.38 1.67 9.81c-.001 1.65.431 3.262 1.25 4.68l-.989 3.615 3.71-.973zm13.111-6.196c-.347-.174-2.055-1.014-2.373-1.129-.318-.116-.549-.174-.78.174-.231.348-.895 1.129-1.096 1.361-.202.233-.404.261-.751.087-.347-.174-1.464-.539-2.787-1.72-1.03-.919-1.725-2.054-1.927-2.402-.202-.347-.022-.535.152-.708.156-.156.347-.404.52-.607.174-.202.231-.347.347-.579.117-.231.059-.434-.029-.607-.087-.174-.78-1.88-1.069-2.576-.282-.677-.568-.586-.78-.597-.202-.011-.433-.013-.664-.013-.231 0-.607.087-.924.434-.318.348-1.213 1.187-1.213 2.895s1.242 3.359 1.416 3.59c.174.231 2.443 3.731 5.918 5.233.826.358 1.47.571 1.97.73.83.264 1.585.226 2.182.137.665-.099 2.055-.84 2.344-1.652.289-.812.289-1.507.202-1.652-.088-.146-.318-.232-.665-.407z"/></svg> 
+            WhatsApp Support
+          </a>
+          <a 
+            id="mobile-drawer-contact"
+            href="contact.html" 
+            class="nav-link-btn w-full bg-brick-red hover:bg-orange-flame text-white font-semibold py-3 px-4 rounded-xl text-xs text-center block transition-colors"
+            data-page="contact"
+          >
+            Request Quote
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 4. Main Clean Full-Width Content Container -->
+    <main id="main-content-area" class="w-full min-h-[60vh] transition-colors duration-300">
+      <!-- Injected dynamically based on URL file path by app.js fallback -->
+    </main>
+
+    <!-- 5. Premium Global Call to Action & Inquiry Form -->
+    <section class="bg-white dark:bg-[#141416] border-t border-neutral-200/40 dark:border-neutral-900 py-16 md:py-24 transition-colors duration-300">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
+          
+          <!-- Left Column: CTA Pitch & Partners -->
+          <div class="space-y-6">
+            <span class="inline-flex items-center gap-1.5 bg-brick-red/10 text-brick-red text-xs uppercase tracking-widest font-bold px-3 py-1 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-brick-red animate-pulse"></span>
+              On-Site Construction
+            </span>
+            <h3 class="text-3xl md:text-4xl font-display font-extrabold text-neutral-900 dark:text-white leading-tight">
+              Ready to construct a <br class="hidden sm:inline" />
+              <span class="text-gradient">high-efficiency brick incinerator</span>?
+            </h3>
+            <p class="text-neutral-600 dark:text-neutral-400 text-sm md:text-base leading-relaxed">
+              Solomon Adeklo and Price Dodzi are ready to design and construct highly durable, cone-shaped fired clay brick incinerators that withstand thermal shocks and environmental exposure in Ghana. Let us evaluate your daily waste streams, prevailing wind directions, and safety clearances.
+            </p>
+            
+            <div class="pt-6 border-t border-neutral-200/50 dark:border-neutral-800 space-y-4">
+              <h5 class="text-[10px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-widest font-mono">Meet the Engineering Partners</h5>
+              <div class="flex flex-wrap gap-4">
+                <div class="flex items-center gap-3 bg-neutral-50 dark:bg-neutral-900/60 p-3 rounded-2xl border border-neutral-200/40 dark:border-neutral-800">
+                  <div class="w-10 h-10 rounded-xl bg-brick-red text-white flex items-center justify-center font-bold text-sm shrink-0">
+                    PD
+                  </div>
+                  <div>
+                    <h6 class="text-xs font-bold text-neutral-900 dark:text-white">Price Dodzi</h6>
+                    <p class="text-[10px] text-neutral-500 uppercase font-mono mt-0.5">C.E.O & Site Engineer</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3 bg-neutral-50 dark:bg-neutral-900/60 p-3 rounded-2xl border border-neutral-200/40 dark:border-neutral-800">
+                  <div class="w-10 h-10 rounded-xl bg-brick-red text-white flex items-center justify-center font-bold text-sm shrink-0">
+                    SA
+                  </div>
+                  <div>
+                    <h6 class="text-xs font-bold text-neutral-900 dark:text-white">Solomon Adeklo</h6>
+                    <p class="text-[10px] text-neutral-500 uppercase font-mono mt-0.5">Project Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Contextual Interactive Quote Request Form -->
+          <div class="bg-neutral-50 dark:bg-neutral-950 p-6 md:p-8 rounded-3xl border border-neutral-200/40 dark:border-neutral-900 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-brick-red/5 rounded-full blur-2xl"></div>
+            <h4 class="text-lg font-display font-bold text-neutral-950 dark:text-white">Request On-Site Estimate</h4>
+            <p class="text-xs text-neutral-500 mt-1">Get custom engineering specs and physical cost calculations.</p>
+            
+            <form id="sidebar-inquiry-form" class="mt-6 space-y-4">
+              <div>
+                <label class="block text-[10px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono mb-1.5">Full Name / Organization</label>
+                <input 
+                  type="text" 
+                  id="inquiry-name"
+                  placeholder="e.g. Grace Clinic or Solomon Yaw" 
+                  required
+                  class="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-3 text-xs focus:outline-none focus:border-brick-red dark:text-white"
+                />
+              </div>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-[10px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono mb-1.5">Phone Number</label>
+                  <input 
+                    type="tel" 
+                    id="inquiry-phone"
+                    placeholder="e.g. +233 24..." 
+                    required
+                    class="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-3 text-xs focus:outline-none focus:border-brick-red dark:text-white"
+                  />
+                </div>
+                <div>
+                  <label class="block text-[10px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono mb-1.5">Email Address</label>
+                  <input 
+                    type="email" 
+                    id="inquiry-email"
+                    placeholder="e.g. you@example.com" 
+                    required
+                    class="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-3 text-xs focus:outline-none focus:border-brick-red dark:text-white"
+                  />
+                </div>
+              </div>
+              <div>
+                <label class="block text-[10px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono mb-1.5">Site Location (Town/Region)</label>
+                <input 
+                  type="text" 
+                  id="inquiry-location"
+                  placeholder="e.g. Tema Community 25, Greater Accra" 
+                  required
+                  class="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-3 text-xs focus:outline-none focus:border-brick-red dark:text-white"
+                />
+              </div>
+              <div>
+                <label class="block text-[10px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono mb-1.5">Estimated Daily Waste Volume</label>
+                <select 
+                  id="inquiry-volume"
+                  class="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-3 text-xs focus:outline-none focus:border-brick-red dark:text-white appearance-none"
+                >
+                  <option value="small">Small Domestic (Under 10 kg/day)</option>
+                  <option value="medium" selected>Institutional / Clinic (10 - 50 kg/day)</option>
+                  <option value="large">Large Commercial / School (50 - 200 kg/day)</option>
+                  <option value="huge">Industrial / Agro-Processing (200+ kg/day)</option>
+                </select>
+              </div>
+              <button 
+                type="submit" 
+                class="w-full bg-brick-red hover:bg-orange-flame text-white py-3 px-4 rounded-xl text-xs font-bold shadow-md shadow-brick-red/10 transition-colors cursor-pointer"
+              >
+                Submit Inquiry to Site Engineer
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Sliding Testimonial Section -->
+    <section class="bg-neutral-950 text-white py-16 md:py-20 border-t border-neutral-900 overflow-hidden">
+      <div class="container mx-auto px-6 max-w-4xl text-center space-y-8">
+        <div class="space-y-2">
+          <span class="text-xs uppercase tracking-widest font-mono text-brick-red font-bold">Client Success Stories</span>
+          <h3 class="text-2xl md:text-3xl font-display font-extrabold" style="margin:0">What Our Clients Say</h3>
+        </div>
+
+        <div id="testimonials-slide-container" class="relative min-h-[180px] flex items-center justify-center">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer class="bg-neutral-950 text-white pt-20 pb-10 border-t border-neutral-900">
+      <div class="container mx-auto px-6 max-w-7xl grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+        
+        <!-- Brand block -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <img 
+              src="/src/assets/images/company_logo_1784315853658.jpg" 
+              alt="BrickFlame Logo" 
+              class="w-9 h-9 rounded-xl object-cover"
+              referrerPolicy="no-referrer"
+            />
+            <h4 class="font-display font-extrabold text-sm text-white tracking-wide" style="margin:0">BRICKFLAME WASTE</h4>
+          </div>
+          <p class="text-[11px] text-neutral-400 leading-relaxed font-light" style="margin:5px 0 0 0">
+            Dedicated environmental engineering specialists providing durable, safe, cone-shaped brick incinerators across Ghana and Africa. Helping schools, estates, clinics, and businesses manage combustible waste cleanly.
+          </p>
+          <div class="pt-2">
+            <span class="text-[9px] text-neutral-500 font-mono tracking-widest block">COMMUNITY SANITATION • BRICK BY BRICK</span>
+          </div>
+        </div>
+
+        <!-- Quick links -->
+        <div class="space-y-4 lg:pl-6">
+          <h5 class="font-display font-bold text-xs uppercase tracking-widest text-brick-red" style="margin:0">Information</h5>
+          <ul class="space-y-2.5 text-xs text-neutral-400 font-light" style="list-style:none; padding:0; margin:10px 0 0 0">
+            <li><a href="index.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="home">&raquo; Home Overview</a></li>
+            <li><a href="about.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="about">&raquo; Company Profile</a></li>
+            <li><a href="services.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="services">&raquo; Our Services</a></li>
+            <li><a href="gallery.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="gallery">&raquo; Work Portfolio</a></li>
+            <li><a href="faq.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="faq">&raquo; Common FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Technology Highlights -->
+        <div class="space-y-4">
+          <h5 class="font-display font-bold text-xs uppercase tracking-widest text-orange-flame" style="margin:0">Brick Technology</h5>
+          <ul class="space-y-2.5 text-xs text-neutral-400 font-light" style="list-style:none; padding:0; margin:10px 0 0 0">
+            <li><a href="incinerators.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="incinerators">&raquo; Thermodynamic Laws</a></li>
+            <li><a href="process.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="process">&raquo; 13-Step Construction</a></li>
+            <li><a href="ash.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="ash">&raquo; Soil Ash Recycle</a></li>
+            <li><a href="prototype.html" class="nav-link-btn hover:text-brick-red transition-colors flex items-center gap-1.5" data-page="prototype">&raquo; Prototype Launch</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Box -->
+        <div class="space-y-4">
+          <h5 class="font-display font-bold text-xs uppercase tracking-widest text-amber-500" style="margin:0">Stay Updated</h5>
+          <p class="text-[11px] text-neutral-400 leading-relaxed" style="margin:5px 0 0 0">
+            Subscribe to receive alerts when our prototype demonstration videos, emissions data sheets, and training manuals are released.
+          </p>
+          
+          <form id="footer-newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed! Thank you.'); this.reset();" class="flex gap-2" style="margin-top:10px">
+            <input 
+              type="email" 
+              placeholder="Enter email..." 
+              class="bg-neutral-900 border border-neutral-800 rounded-xl p-3 text-xs text-white placeholder-neutral-600 focus:outline-none focus:border-brick-red w-full shadow-inner"
+              required
+            />
+            <button 
+              id="footer-subscribe-btn"
+              type="submit" 
+              class="bg-brick-red hover:bg-orange-flame text-white px-4 py-3 rounded-xl text-xs font-bold transition-colors cursor-pointer shrink-0 shadow-md"
+            >
+              Sign Up
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Copy boundaries -->
+      <div class="container mx-auto px-6 max-w-7xl pt-8 border-t border-neutral-900 flex flex-col md:flex-row justify-between items-center text-[11px] text-neutral-500">
+        <p style="margin:0">&copy; 2026 BrickFlame Waste Solutions Limited. All Rights Reserved. Tema, Ghana.</p>
+        <div class="flex gap-5 mt-4 md:mt-0">
+          <a href="about.html" class="nav-link-btn hover:text-white" data-page="about">Privacy Policy</a>
+          <span>•</span>
+          <a href="faq.html" class="nav-link-btn hover:text-white" data-page="faq">Terms & Conditions</a>
+          <span>•</span>
+          <span class="text-brick-red font-bold font-mono">TEMA - GHANA</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 8. Floating Actions (WhatsApp & Back To Top) -->
+    <a
+      id="floating-whatsapp-btn"
+      href="https://wa.me/233256016767"
+      target="_blank"
+      rel="noreferrer"
+      class="fixed bottom-6 right-6 bg-[#128C7E] hover:bg-[#075E54] text-white p-4 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all z-30 flex items-center justify-center gap-2 group cursor-pointer"
+      title="Chat on WhatsApp"
+    >
+      <svg class="w-6 h-6 fill-white text-white shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.501-5.733-1.454L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.638 1.986 14.161 1.01 11.533 1.01 6.098 1.01 1.674 5.38 1.67 9.81c-.001 1.65.431 3.262 1.25 4.68l-.989 3.615 3.71-.973zm13.111-6.196c-.347-.174-2.055-1.014-2.373-1.129-.318-.116-.549-.174-.78.174-.231.348-.895 1.129-1.096 1.361-.202.233-.404.261-.751.087-.347-.174-1.464-.539-2.787-1.72-1.03-.919-1.725-2.054-1.927-2.402-.202-.347-.022-.535.152-.708.156-.156.347-.404.52-.607.174-.202.231-.347.347-.579.117-.231.059-.434-.029-.607-.087-.174-.78-1.88-1.069-2.576-.282-.677-.568-.586-.78-.597-.202-.011-.433-.013-.664-.013-.231 0-.607.087-.924.434-.318.348-1.213 1.187-1.213 2.895s1.242 3.359 1.416 3.59c.174.231 2.443 3.731 5.918 5.233.826.358 1.47.571 1.97.73.83.264 1.585.226 2.182.137.665-.099 2.055-.84 2.344-1.652.289-.812.289-1.507.202-1.652-.088-.146-.318-.232-.665-.407z"/></svg> 
+      <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 ease-out text-xs font-bold font-display whitespace-nowrap">
+        WhatsApp Support
+      </span>
+    </a>
+
+    <button
+      id="scroll-to-top-btn"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      class="fixed bottom-6 left-6 bg-brick-red hover:bg-orange-flame text-white p-3.5 rounded-full shadow-lg z-30 hover:-translate-y-1 active:scale-95 transition-all cursor-pointer"
+      title="Scroll back to top"
+    >
+      <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="19" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- 9. App Controller JS -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
