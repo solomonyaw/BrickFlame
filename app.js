@@ -108,21 +108,21 @@ const CONSTRUCTION_STEPS = [
     step: 1,
     title: "Site Selection and Planning",
     description: "The team selects a stable ground location with excellent drainage. It is critical to keep the incinerator at an adequate safety clearance distance from nearby buildings, high trees, power lines, and pedestrian walkways.",
-    image: "/src/assets/images/step1_site_planning_1784315909010.jpg",
+    image: "./src/assets/images/step1_site_planning_1784315909010.jpg",
     safetyConsideration: "Ensure compliance with local environmental regulations and check prevailing wind directions to minimize drift."
   },
   {
     step: 2,
     title: "Preparing the Foundation",
     description: "We mark out and excavate the soil before casting a reinforced concrete slab. This solid base distributes the heavy weight of the masonry structure and prevents any structural shifting, cracking, or sinking over time.",
-    image: "/src/assets/images/step2_foundation_1784315921228.jpg",
+    image: "./src/assets/images/step2_foundation_1784315921228.jpg",
     safetyConsideration: "Concrete must be vibrated to eliminate air pockets and allowed to set fully for maximum structural stability."
   },
   {
     step: 3,
     title: "Constructing the Ash Chamber",
     description: "The lower brick section forms the ash chamber. It acts as a collection bin below the combustion grate. We incorporate a custom steel ash-removal door to make cleaning out cold ash straightforward and safe.",
-    image: "/src/assets/images/step3_ash_chamber_1784315936387.jpg",
+    image: "./src/assets/images/step3_ash_chamber_1784315936387.jpg",
     safetyConsideration: "Ensure the brick layout leaves perfectly plumb and square margins for the flush metal door frame."
   },
   {
