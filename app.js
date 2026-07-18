@@ -768,7 +768,7 @@ function renderHome() {
       <section class="relative rounded-3xl overflow-hidden min-h-[480px] md:min-h-[580px] flex items-center justify-center p-8 md:p-16 border border-neutral-200/50 dark:border-neutral-900 bg-neutral-950 shadow-2xl">
         <div class="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/hero_incinerator_1784315894663.jpg" 
+            src="./src/assets/images/hero_incinerator_1784315894663.jpg" 
             alt="BrickFlame Incinerator Banner" 
             class="w-full h-full object-cover opacity-35"
             referrerpolicy="no-referrer"
