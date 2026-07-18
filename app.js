@@ -323,7 +323,7 @@ let mobileMenuOpen = false;
 let statsCounted = false;
 
 // Count-down timer state
-const targetCountdownTime = new Date().getTime() + (90 * 24 * 60 * 60 * 1000) + (14 * 60 * 60 * 1000) + (28 * 60 * 1000); // 12 days, 14 hours, 28 minutes from load
+const targetCountdownTime = new Date().getTime() + (140 * 24 * 60 * 60 * 1000) + (14 * 60 * 60 * 1000) + (28 * 60 * 1000); // 12 days, 14 hours, 28 minutes from load
 
 // Live Stats Values
 const finalStats = { projects: 42, communities: 18, experience: 5, satisfaction: 99 };
