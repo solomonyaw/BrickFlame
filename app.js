@@ -96,7 +96,7 @@ const SERVICES = [
   },
   {
     id: "operator-training",
-    title: "Operator Training & Safe Usage Certification",
+    title: "Operator Training & Safe Usage",
     description: "Hands-on training for staff and community members on proper waste segregation, loading, and cleaning.",
     icon: "GraduationCap",
     longDescription: "Every incinerator project comes with comprehensive on-site training. We teach your designated operators how to sort waste, safe loading protocols, ash removal routines, basic troubleshooting, and emergency safety operations."
