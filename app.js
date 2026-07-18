@@ -875,7 +875,7 @@ function renderHome() {
           <div class="relative bg-white dark:bg-[#141416] p-4 rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-xl overflow-hidden group">
             <div class="h-64 sm:h-80 rounded-2xl overflow-hidden relative">
               <img 
-                src="/src/assets/images/hero_incinerator_1784315894663.jpg" 
+                src="./src/assets/images/hero_incinerator_1784315894663.jpg" 
                 alt="Completed BrickFlame Incinerator" 
                 class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                 referrerpolicy="no-referrer"
@@ -1079,9 +1079,9 @@ function renderAbout() {
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
-          <div class="bg-white dark:bg-[#141416] rounded-2xl border border-neutral-100 dark:border-neutral-800 shadow-sm overflow-hidden group hover:shadow-md transition-shadow flex flex-col">
-            <div class="relative h-64 sm:h-72 overflow-hidden shrink-0">
-              <img src="/src/assets/images/prince_dodzi_1784315867465.jpg" alt="Price Dodzi" class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" />
+          <div  class=" bg-white dark:bg-[#141416] rounded-2xl border border-neutral-100 dark:border-neutral-800 shadow-sm overflow-hidden group hover:shadow-md transition-shadow flex flex-col">
+            <div style="height:500px;"  class="relative h-64 sm:h-72 overflow-hidden shrink-0 ">
+              <img src="./src/assets/images/prince_dodzi_1784315867465.jpg" alt="Price Dodzi" class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent"></div>
               <div class="absolute bottom-6 left-6 text-white">
                 <h4 class="text-lg font-display font-bold" style="margin:0">Price Dodzi</h4>
@@ -1098,8 +1098,8 @@ function renderAbout() {
           </div>
 
           <div class="bg-white dark:bg-[#141416] rounded-2xl border border-neutral-100 dark:border-neutral-800 shadow-sm overflow-hidden group hover:shadow-md transition-shadow flex flex-col">
-            <div class="relative h-64 sm:h-72 overflow-hidden shrink-0">
-              <img src="/src/assets/images/solomon_adeklo_1784315879708.jpg" alt="Solomon Yaw Adeklo" class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" />
+            <div style="height:500px;" class="relative h-64 sm:h-72 overflow-hidden shrink-0">
+              <img src="./src/assets/images/solomon_adeklo_1784315879708.jpg" alt="Solomon Yaw Adeklo" class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent"></div>
               <div class="absolute bottom-6 left-6 text-white">
                 <h4 class="text-lg font-display font-bold" style="margin:0">Solomon Yaw Adeklo</h4>
@@ -1310,7 +1310,7 @@ function renderTechnology() {
         <div class="relative">
           <div class="absolute -inset-2 bg-gradient-to-r from-brick-red to-orange-flame opacity-10 blur-xl rounded-3xl"></div>
           <img 
-            src="/src/assets/images/hero_incinerator_1784315894663.jpg" 
+            src="./src/assets/images/hero_incinerator_1784315894663.jpg" 
             alt="Physical details of the brick incinerator" 
             class="w-full h-80 sm:h-96 object-cover rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-xl relative z-10"
             referrerPolicy="no-referrer"
