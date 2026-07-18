@@ -108,81 +108,91 @@ const CONSTRUCTION_STEPS = [
     step: 1,
     title: "Site Selection and Planning",
     description: "The team selects a stable ground location with excellent drainage. It is critical to keep the incinerator at an adequate safety clearance distance from nearby buildings, high trees, power lines, and pedestrian walkways.",
-    image: "./src/assets/images/step1_site_planning_1784315909010.jpg",
+    image: "./src/assets/images/step1.png",
     safetyConsideration: "Ensure compliance with local environmental regulations and check prevailing wind directions to minimize drift."
   },
   {
     step: 2,
     title: "Preparing the Foundation",
     description: "We mark out and excavate the soil before casting a reinforced concrete slab. This solid base distributes the heavy weight of the masonry structure and prevents any structural shifting, cracking, or sinking over time.",
-    image: "./src/assets/images/step2_foundation_1784315921228.jpg",
+    image: "./src/assets/images/step 2.png",
     safetyConsideration: "Concrete must be vibrated to eliminate air pockets and allowed to set fully for maximum structural stability."
   },
   {
     step: 3,
     title: "Constructing the Ash Chamber",
     description: "The lower brick section forms the ash chamber. It acts as a collection bin below the combustion grate. We incorporate a custom steel ash-removal door to make cleaning out cold ash straightforward and safe.",
-    image: "./src/assets/images/step3_ash_chamber_1784315936387.jpg",
+    image: "./src/assets/images/step3.png",
     safetyConsideration: "Ensure the brick layout leaves perfectly plumb and square margins for the flush metal door frame."
   },
   {
     step: 4,
     title: "Installing Primary Air Inlets",
     description: "Air inlet openings are carefully engineered in the lower brick courses surrounding the ash chamber. These draw fresh oxygen into the firebed, supporting a clean, fast burn.",
+    image: "./src/assets/images/step4.png",
     safetyConsideration: "Inlets must remain clear of mortar droppings during bricklaying to guarantee unimpeded draft flow."
   },
   {
     step: 5,
     title: "Installing the Metal Support Grate",
     description: "A heavy-duty, high-temperature steel support grate is mounted between the ash chamber and the combustion chamber. It suspends waste securely above the air inlets.",
+    image: "./src/assets/images/step 5.png",
     safetyConsideration: "Allow a small thermal expansion gap around the grate edges to prevent expanding steel from cracking the bricks."
   },
   {
     step: 6,
     title: "Constructing the Combustion Chamber",
     description: "Masons lay fired clay bricks with refractory mortar to form the main combustion chamber. The interior is lined with premium firebricks in high-temperature zones to withstand thermal shock.",
+    image: "./src/assets/images/step 6.png",
     safetyConsideration: "Ensure thick, tight joints with dedicated refractory fireclay mortar in the hot-zone core."
   },
   {
     step: 7,
     title: "Installing the Waste Loading Door",
     description: "A heavy cast-iron or thick steel loading door with a robust hinge mechanism is securely anchored into the brick wall. This door allows operators to load combustible waste safely.",
+    image: "./src/assets/images/step 7.png",
     safetyConsideration: "The door is fitted with a cool-touch handle and a secure latch to prevent accidental opening during a active burn."
   },
   {
     step: 8,
     title: "Building the Cone-Shaped Upper Chamber",
     description: "The masons start tapering the brick courses inward. This cone profile is key: it concentrates heat, draws fresh air up rapidly (venturi effect), and distributes structural weight stably.",
+    image: "./src/assets/images/step 8.png",
     safetyConsideration: "Each brick course must be precisely offset inward with careful level checks to keep the cone structurally sound."
   },
   {
     step: 9,
     title: "Constructing the Chimney System",
     description: "A brick-lined or steel flue chimney is erected at the cone peak to draft exhaust gases upward, keeping ground-level air clean and drawing fresh oxygen through the primary inlets.",
+    image: "./src/assets/images/step 9.png",
     safetyConsideration: "A protective wire spark-arrestor and weather-proof rain cap are integrated onto the chimney peak."
   },
   {
     step: 10,
     title: "Exterior Finishing",
     description: "A high-durability plaster render or weatherproofing wash is applied to the exterior brickwork. This shields the outer mortar from rainwater and adds a clean, professional company aesthetic.",
+    image: "./src/assets/images/step 10.png",
     safetyConsideration: "The plaster must be formulated to resist thermal expansion and weather cracking."
   },
   {
     step: 11,
     title: "Drying and Curing",
     description: "Crucial stage where the finished structure is left undisturbed for up to 14 days. Moisture in the refractory cement evaporates naturally to avoid rapid boiling during first fires.",
+    image: "./src/assets/images/step 11.png",
     safetyConsideration: "Do not rush this step. Lighting fires too early will turn trapped water into steam, causing internal brick cracks."
   },
   {
     step: 12,
     title: "Inspection and Initial Testing",
     description: "Price Dodzi carries out a comprehensive safety inspection. A controlled low-temperature test burn validates the natural draft pull, airflow distribution, door seals, and smoke behavior.",
+    image: "./src/assets/images/step 12.png",
     safetyConsideration: "Observe the external walls for any heat leakage, verify smooth draft draft, and confirm proper chimney emissions."
   },
   {
     step: 13,
     title: "Commissioning and Operator Training",
     description: "We officially hand over the system and deliver our step-by-step training. We teach waste sorting (segregation), safety controls, and proper loading quantities to prolong incinerator lifespan.",
+    image: "./src/assets/images/step 13.png",
     safetyConsideration: "Emphasize to operators the critical rule: never burn plastics, batteries, or electronic waste."
   }
 ];
@@ -1512,7 +1522,7 @@ function renderAshCircularity() {
         <div class="bg-white dark:bg-[#141416] border border-neutral-100 dark:border-neutral-800 p-8 rounded-3xl flex flex-col justify-between space-y-6 shadow-sm hover:shadow-md transition-shadow">
           <div class="space-y-4">
             <div class="bg-forest-green/10 text-forest-green px-3 py-1 rounded-full text-[10px] font-bold font-mono uppercase tracking-widest inline-flex items-center gap-1">
-              ${getIcon("Leaf", "w-3.5 h-3.5")} High-Value Clean Biomass Ash
+              <img src="./src/assets/images/ash.png" width="400px" height="400px"> 
             </div>
             <h3 class="text-lg md:text-xl font-display font-bold text-neutral-950 dark:text-white" style="margin:0">When Burning Biomass (Leaves, Wood, Husks, Cardboard)</h3>
             <p class="text-xs text-neutral-500 leading-relaxed font-light" style="margin:0">If the incinerator is operated as a clean-feed system with sorted biomass waste, the resulting bottom ash acts as a rich, safe mineral concentrate containing high potassium, calcium carbonate, and magnesium.</p>
@@ -1520,11 +1530,11 @@ function renderAshCircularity() {
 
           <div class="grid sm:grid-cols-2 gap-4">
             <div class="bg-neutral-50 dark:bg-neutral-900 p-4 rounded-xl border border-neutral-200/40 dark:border-neutral-800 space-y-1">
-              <h5 class="text-xs font-bold text-forest-green flex items-center gap-1.5">${getIcon("CheckCircle2", "w-4 h-4")} Soil Amendment</h5>
+              <h5 class="text-xs font-bold text-forest-green flex items-center gap-1.5"> <img src="./src/assets/images/ash.png" width="400px" height="400px">   Soil Amendment</h5>
               <p class="text-[11px] text-neutral-500 leading-relaxed">Raises pH of acidic crop lands. Apply moderately.</p>
             </div>
             <div class="bg-neutral-50 dark:bg-neutral-900 p-4 rounded-xl border border-neutral-200/40 dark:border-neutral-800 space-y-1">
-              <h5 class="text-xs font-bold text-forest-green flex items-center gap-1.5">${getIcon("CheckCircle2", "w-4 h-4")} Compost Additive</h5>
+              <h5 class="text-xs font-bold text-forest-green flex items-center gap-1.5"> <img src="./src/assets/images/ash.png" width="400px" height="400px">  Compost Additive</h5>
               <p class="text-[11px] text-neutral-500 leading-relaxed">Enriches farm compost heaps with key minerals.</p>
             </div>
           </div>
@@ -1533,7 +1543,7 @@ function renderAshCircularity() {
         <div class="bg-white dark:bg-[#141416] border border-neutral-100 dark:border-neutral-800 p-8 rounded-3xl flex flex-col justify-between space-y-6 shadow-sm hover:shadow-md transition-shadow">
           <div class="space-y-4">
             <div class="bg-brick-red/10 text-brick-red px-3 py-1 rounded-full text-[10px] font-bold font-mono uppercase tracking-widest inline-flex items-center gap-1">
-              ${getIcon("AlertTriangle", "w-3.5 h-3.5")} Mixed Municipal Solid Waste Ash
+              <img src="./src/assets/images/ash.png" width="400px" height="400px"> 
             </div>
             <h3 class="text-lg md:text-xl font-display font-bold text-neutral-950 dark:text-white" style="margin:0">When Burning Mixed Household/Industrial Waste</h3>
             <p class="text-xs text-neutral-500 leading-relaxed font-light" style="margin:0">If the stream contains plastic coatings, rubber, treated wood, painted lumber, batteries, or medical items, the ash CANNOT be used on soils. It holds toxic heavy metal residues.</p>
@@ -1541,7 +1551,7 @@ function renderAshCircularity() {
 
           <div class="bg-brick-red/5 border border-brick-red/10 p-5 rounded-2xl">
             <h5 class="text-xs font-bold text-brick-red flex items-center gap-1.5" style="margin:0">
-              ${getIcon("AlertOctagon", "w-4.5 h-4.5")} May Contain Trace Hazards:
+               <img src="./src/assets/images/ash.png" width="400px" height="400px"> 
             </h5>
             <p class="text-[11px] text-neutral-500 leading-relaxed mt-2" style="margin:0">Lead, cadmium, mercury, and dioxins can compile in municipal residue. Handle with heavy gloves and dispose safely in deep industrial landfills.</p>
           </div>
