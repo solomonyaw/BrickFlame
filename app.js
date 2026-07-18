@@ -47,7 +47,7 @@ const FOUNDERS = [
   {
     name: "Price Dodzi",
     role: "C.E.O and Site Engineer",
-    bio: "As C.E.O and Lead Site Engineer, Price leads the physical design and construction of every brick incinerator. With advanced training in environmental engineering, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.",
+    bio: "As C.E.O and Lead Site Engineer, Prince leads the physical design and construction of every brick incinerator. With advanced training in environmental engineering, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.",
     image: "/src/assets/images/prince_dodzi_1784315867465.jpg"
   },
   {
@@ -184,7 +184,7 @@ const CONSTRUCTION_STEPS = [
   {
     step: 12,
     title: "Inspection and Initial Testing",
-    description: "Price Dodzi carries out a comprehensive safety inspection. A controlled low-temperature test burn validates the natural draft pull, airflow distribution, door seals, and smoke behavior.",
+    description: "Prince Dodzi carries out a comprehensive safety inspection. A controlled low-temperature test burn validates the natural draft pull, airflow distribution, door seals, and smoke behavior.",
     image: "./src/assets/images/step 12.png",
     safetyConsideration: "Observe the external walls for any heat leakage, verify smooth draft draft, and confirm proper chimney emissions."
   },
@@ -241,7 +241,7 @@ const BLOG_POSTS = [
     excerpt: "An essential guide to sorting municipal waste, protecting operator health, and achieving zero-hazard emissions.",
     category: "Waste Management",
     date: "June 28, 2026",
-    author: "Price Dodzi",
+    author: "Prince Dodzi",
     image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=600",
     content: "At BrickFlame Waste Solutions Limited, we emphasize that our incinerators are thermodynamic tools, not magical dustbins. What goes in directly determines what comes out. Mixing PVC plastics, batteries, or old electronics into the burn stream releases toxic dioxins and heavy metals into the atmosphere and poisons the resulting ash. When waste is rigorously sorted beforehand—diverting organic compostables, recycling metals/glass, and incinerating only paper, wood, and dry residues—incineration is clean, efficient, and exceptionally safe. This guide outlines practical community segregation models we implement across schools and estates."
   },
@@ -251,7 +251,7 @@ const BLOG_POSTS = [
     excerpt: "Diving into the fluid dynamics and masonry science that make cone-shaped brick incinerators self-drawing.",
     category: "Engineering",
     date: "May 14, 2026",
-    author: "Price Dodzi",
+    author: "Prince Dodzi",
     image: "https://images.unsplash.com/photo-1581094288338-2314dddb7eed?auto=format&fit=crop&q=80&w=600",
     content: "Why are our incinerators shaped like cones instead of standard cylinders or squares? It comes down to draft. As air heats up inside the primary chamber, it expands and rises. In a straight cylinder, friction against the walls slows the gas. But in a cone, the narrowing walls accelerate the upward gas speed—a physical phenomenon known as the Venturi effect. This rapid rise creates a vacuum at the base, drawing fresh oxygen in through the primary inlets and driving complete, clean combustion without mechanical blowers or electricity."
   }
@@ -308,7 +308,7 @@ const TESTIMONIALS = [
     name: "Madam Faustina Mensah",
     role: "Headmistress",
     organization: "New Sebrepor Academy",
-    content: "With over 800 students, managing waste was a continuous cost burden. Price and Solomon's team built our cone incinerator, trained our janitors, and conducted educational sessions on waste sorting. It has changed our school environment completely.",
+    content: "With over 800 students, managing waste was a continuous cost burden. Prince and Solomon's team built our cone incinerator, trained our janitors, and conducted educational sessions on waste sorting. It has changed our school environment completely.",
     rating: 5
   },
   {
@@ -580,7 +580,7 @@ function setupEventListeners() {
     const inquiryForm = e.target.closest("#sidebar-inquiry-form") || e.target.closest("#mobile-inquiry-form");
     if (inquiryForm) {
       e.preventDefault();
-      alert("Thank you! Your inquiry has been submitted. Solomon Adeklo or Price Dodzi will contact you shortly.");
+      alert("Thank you! Your inquiry has been submitted. Solomon Adeklo or Prince Dodzi will contact you shortly.");
       inquiryForm.reset();
     }
   });
@@ -599,7 +599,7 @@ function setupEventListeners() {
         return;
       }
       
-      alert("Success! Your detailed request has been logged. Price Dodzi (C.E.O) will review your specifications and contact you.");
+      alert("Success! Your detailed request has been logged. Prince Dodzi (C.E.O) will review your specifications and contact you.");
       contactForm.reset();
     }
   });
@@ -1091,15 +1091,15 @@ function renderAbout() {
         <div class="grid md:grid-cols-2 gap-8">
           <div  class=" bg-white dark:bg-[#141416] rounded-2xl border border-neutral-100 dark:border-neutral-800 shadow-sm overflow-hidden group hover:shadow-md transition-shadow flex flex-col">
             <div style="height:500px;"  class="relative h-64 sm:h-72 overflow-hidden shrink-0 ">
-              <img src="./src/assets/images/prince_dodzi_1784315867465.jpg" alt="Price Dodzi" class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" />
+              <img src="./src/assets/images/prince_dodzi_1784315867465.jpg" alt="Prince Dodzi" class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent"></div>
               <div class="absolute bottom-6 left-6 text-white">
-                <h4 class="text-lg font-display font-bold" style="margin:0">Price Dodzi</h4>
+                <h4 class="text-lg font-display font-bold" style="margin:0">Prince Dodzi</h4>
                 <p class="text-[11px] font-mono uppercase tracking-wider text-brick-red mt-1">C.E.O and Site Engineer</p>
               </div>
             </div>
             <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-              <p class="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed" style="margin:0">As C.E.O and Lead Site Engineer, Price leads the physical design and construction of every brick incinerator. With advanced training in environmental engineering, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.</p>
+              <p class="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed" style="margin:0">As C.E.O and Lead Site Engineer, Prince leads the physical design and construction of every brick incinerator. With advanced training in environmental engineering, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.</p>
               <div class="pt-4 border-t border-neutral-100 dark:border-neutral-800 flex justify-between items-center text-[10px] text-neutral-400 font-mono">
                 <span>VERIFIED CO-FOUNDER</span>
                 <span class="text-brick-red font-bold">BF CO.</span>
@@ -1940,7 +1940,7 @@ function renderContact() {
           Contact Us & Get Quotations
         </h1>
         <p class="text-neutral-500 dark:text-neutral-400 text-sm md:text-base leading-relaxed" style="margin:0">
-          Have physical waste projects or custom specifications? Direct message Solomon Adeklo or Price Dodzi for prompt estimates.
+          Have physical waste projects or custom specifications? Direct message Solomon Adeklo or Prince Dodzi for prompt estimates.
         </p>
       </div>
 
