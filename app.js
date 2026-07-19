@@ -47,7 +47,7 @@ const FOUNDERS = [
   {
     name: "Price Dodzi",
     role: "C.E.O and Site Engineer",
-    bio: "As C.E.O and Lead Site Engineer, Prince leads the physical design and construction of every brick incinerator. With advanced training in environmental engineering, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.",
+    bio: "As C.E.O and Lead Site Engineer, Prince leads the physical design and construction of every brick incinerator. With knowledge in building technology, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.",
     image: "/src/assets/images/prince_dodzi_1784315867465.jpg"
   },
   {
