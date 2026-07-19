@@ -1099,7 +1099,7 @@ function renderAbout() {
               </div>
             </div>
             <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-              <p class="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed" style="margin:0">As C.E.O and Lead Site Engineer, Prince leads the physical design and construction of every brick incinerator. With advanced training in environmental engineering, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.</p>
+              <p class="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed" style="margin:0">As C.E.O and Lead Site Engineer, Prince leads the physical design and construction of every brick incinerator. With knowledge in building construction, he ensures each structure meets rigorous thermal performance and safety standards, optimizing natural draft and heat retention for cleaner combustion.</p>
               <div class="pt-4 border-t border-neutral-100 dark:border-neutral-800 flex justify-between items-center text-[10px] text-neutral-400 font-mono">
                 <span>VERIFIED CO-FOUNDER</span>
                 <span class="text-brick-red font-bold">BF CO.</span>
